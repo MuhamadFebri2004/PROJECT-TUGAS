@@ -1,0 +1,31 @@
+// 1. Convert Fahrenheit to Celsius
+function fahrenheitToCelsius(fahrenheit) {
+    return (fahrenheit - 32) * 5 / 9;
+}
+console.log(fahrenheitToCelsius(100)); // Example usage
+
+// 2. Convert centimeter to kilometer
+function cmToKm(cm) {
+    return cm / 100000;
+}
+console.log(cmToKm(100000)); // Example usage
+
+// 3. Check if a number is even
+function isEven(n) {
+    return n % 2 === 0;
+}
+console.log(isEven(1000)); // Example usage
+console.log(isEven(1001));
+
+// 4. Remove the first occurrence of a search string
+function removeFirstOccurrence(str, search) {
+    return str.replace(search, '');
+}
+console.log(removeFirstOccurrence("Hello world", "ell")); // Example usage
+
+// 5. Check if a string is a palindrome
+function isPalindrome(str) {
+    let reversed = str.split('').reverse().join('');
+    return str === reversed;
+}
+console.log(isPalindrome("madam")); // Example usage

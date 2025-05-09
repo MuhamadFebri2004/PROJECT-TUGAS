@@ -1,0 +1,31 @@
+// Function to convert Fahrenheit to Celsius
+function fahrenheitToCelsius(fahrenheit: number): number {
+    return (fahrenheit - 32) * 5 / 9;
+}
+console.log(fahrenheitToCelsius(100)); // Example usage
+
+// Function to convert centimeters to kilometers
+function cmToKm(cm: number): string {
+    return `${cm / 100000} km`;
+}
+console.log(cmToKm(100000));
+
+// Function to check if a number is even
+function isEven(n: number): boolean {
+    return n % 2 === 0;
+}
+console.log(isEven(1000)); // true
+console.log(isEven(1001)); // false
+
+// Function to remove first occurrence of a substring
+function removeFirstOccurrence(str: string, search: string): string {
+    return str.replace(search, "");
+}
+console.log(removeFirstOccurrence("Hello world", "ell")); // "Ho world"
+
+// Function to check if a string is a palindrome
+function isPalindrome(str: string): boolean {
+    const reversed = str.split('').reverse().join('');
+    return str === reversed;
+}
+console.log(isPalindrome("madam")); // true
