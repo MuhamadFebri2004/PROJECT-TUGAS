@@ -1,20 +1,30 @@
-# PROJECT-TUGAS
-Untuk link medium artikel berikut ini tsb
-soal 1
-medium : MEDIUM https://medium.com/@febridanilham/javascript-vs-typescript-pilih-yang-mana-di-2025-4c57a1a0a981
+# JavaScript and TypeScript Solutions
 
-soal 2 
-medium : https://medium.com/@febridanilham/javascript-vs-typescript-pilih-yang-mana-di-2025-4c57a1a0a981
+## 📌 Description
 
-soal 3
-Medium : https://medium.com/@febridanilham/html-css-fondasi-wajib-buat-yang-mau-jago-web-development-91e2998d995d
+This project provides JavaScript and TypeScript implementations for solving common programming problems related to **geometry** and **string manipulation**.
 
-soal 4
-medium : https://medium.com/@febridanilham/memahami-react-dan-css-framework-membangun-ui-modern-yang-efisien-e4590475d2a5
+It is designed to be simple, educational, and ready-to-run using Node.js.
 
-soal 5 
-medium :https://medium.com/@febridanilham/menguasai-react-hooks-panduan-lengkap-untuk-pemula-1496e0640a92
+---
 
-soal 6
-github : https://github.com/MuhamadFebri2004/REACT-HOOK-POKEMON-2.git
-medium : https://medium.com/@febridanilham/ten-a2fb28e8f98b
+## ✨ Features
+
+- ✅ Calculate the area of a rectangle.
+- ✅ Compute the diameter, circumference, and area of a circle.
+- ✅ Find the missing angle of a triangle when two angles are given.
+- ✅ Determine the difference between two dates in days.
+- ✅ Extract initials from a given full name.
+
+---
+
+## 💻 Usage
+
+### JavaScript (`script.js`)
+
+```js
+console.log(rectangleArea(5, 3)); // Output: 15
+console.log(circleCalculations(5)); // Output: { diameter: 10, circumference: 31.4159, area: 78.539 }
+console.log(findTriangleAngle(80, 65)); // Output: 35
+console.log(dateDifference('2024-03-19', '2024-03-21')); // Output: 2
+console.log(getInitials('John Doe')); // Output: JD
